@@ -13,8 +13,14 @@ for (let button of buttons){
 }
 
 })
+/**
+ * The main game "loop", called when the script is first loaded
+ * and after the user's answer has been pocessed
+ */
 function runGame(){
-
+    // Creates two random numbers between 1 and 25
+let mum1 = Math.ceil(Math.random() * 25);
+let mum2 = Math.ceil(Math.random() * 25);
 }
 
 function checkAnswer(){
